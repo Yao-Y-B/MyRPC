@@ -1,7 +1,7 @@
-package part1.Client;
+package part2.Client;
 
-import part1.common.Message.RpcRequest;
-import part1.common.Message.RpcResponse;
+import part2.common.Message.RpcRequest;
+import part2.common.Message.RpcResponse;
 
 import java.io.IOException;
 import java.io.ObjectInputStream;

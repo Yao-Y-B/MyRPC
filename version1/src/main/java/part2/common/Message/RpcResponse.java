@@ -1,4 +1,4 @@
-package part1.common.Message;
+package part2.common.Message;
 
 import lombok.Builder;
 import lombok.Data;
@@ -17,7 +17,6 @@ public class RpcResponse implements Serializable {
     public static RpcResponse success(Object data){
         return RpcResponse.builder()
                 .code(200)
-                .message("success")
                 .data(data)
                 .build();
     }
